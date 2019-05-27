@@ -1,0 +1,23 @@
+html {
+  --bodyBg: #1e1a2b;
+  --primaryText: #fff;
+  --alienPrimary: #3ffeb4;
+  --alienSecondary: #4858fe;
+  --linkColor: #18cafc;
+  --alienDanger: #f63b43;
+  --alienWarning: #c5e34a;
+}
+
+body {
+  background: var(--bodyBg);
+  color: var(--primaryText);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--alienPrimary);
+}

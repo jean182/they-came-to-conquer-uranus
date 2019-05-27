@@ -1,12 +1,8 @@
-import React from "react"
-import { graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { scale } from "../utils/typography"
 import "../styles/main.css"
 
-const IndexPage = ({ data, location }) => {
+const PageIndex = ({ data, location }) => {
   const title = data.site.siteMetadata.title
   return (
     <Layout title={title} location={location}>
@@ -30,7 +26,7 @@ const IndexPage = ({ data, location }) => {
   )
 }
 
-export default IndexPage
+export default PageIndex
 
 export const pageQuery = graphql`
   query {
